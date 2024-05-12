@@ -1,15 +1,22 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"description": "Tienda virtual donde encuentra todo a la mano",
+	"keywords": [ "Detodo", "rapido", "sencillo", "llantas", "repuestos" ],
+	"license": "MIT",
+	"version":  "1.0.0",
+	"author": "Wilson Avellaneda",
 	"dependencies": {
-		"express": "^4.14.0"
+	  "express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
+	},
+	"engines": {
+	  "node": "8.11.2"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
 	}
-	"author": "Wilson Antonio",
-}
+  }
